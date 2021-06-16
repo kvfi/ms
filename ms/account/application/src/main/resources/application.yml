@@ -1,0 +1,33 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    git:
+      mode: full
+server:
+  port: 8080
+  servlet:
+    contextPath: /application
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: example
+    url: jdbc:postgresql://localhost:5432/ms
+    username: example
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+        format_sql: true
+        hbm2ddl:
+          auto: create-drop
+        id:
+          new_generator_mappings: false
+        temp:
+          use_jdbc_metadata_defaults: false

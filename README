@@ -1,0 +1,2 @@
+## TomEE
+`docker run -it --rm tomee:8-jre-1.7.2-webprofile`

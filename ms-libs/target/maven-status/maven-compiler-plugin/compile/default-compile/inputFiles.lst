@@ -1,0 +1,7 @@
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/response/PositiveResponse.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/response/ResponseAPI.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/response/Response.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/mapping/BaseMapper.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/response/NegativeResponse.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/advice/GlobalExceptionHandler.java
+/home/kvfi/work/SII/workshop/ms-libs/src/main/java/ma/sii/workshop/libs/response/StatusCode.java
